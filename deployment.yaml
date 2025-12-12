@@ -17,7 +17,7 @@ spec:
       - name: ghcr-secret
       containers:
       - name: grade-submission-api
-        image: ghcr.io/ophircloud/kubernetes-cicd-tutorial:latest
+        image: ghcr.io/ophircloud/kubernetes-cicd-tutorial:814c36b5dd6d6e908815d9a9cca74ad39cbce17b
         ports:
         - containerPort: 3000
         resources:
